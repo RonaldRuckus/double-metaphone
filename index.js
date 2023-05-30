@@ -53,7 +53,7 @@ const dutchSch = /E[DMNR]|UY|OO/
  *   Double metaphone codes for `value`.
  */
 // eslint-disable-next-line complexity
-export function doubleMetaphone(value) {
+module.exports.doubleMetaphone = function doubleMetaphone(value) {
   let primary = ''
   let secondary = ''
   let index = 0
